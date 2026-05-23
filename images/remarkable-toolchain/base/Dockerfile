@@ -26,3 +26,5 @@ RUN <<EOT
   apt-get clean
   rm -rf /var/lib/apt/lists/*
 EOT
+
+ENV SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
